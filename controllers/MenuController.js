@@ -7,7 +7,7 @@ module.exports = class MenuController {
                 type: 'list',
                 name: 'mainMenuChoice',
                 message: 'Please choose from an option below: ',
-                choices: ['Add new contact', 'Exit', 'Get Date']
+                choices: ['Add new contact', 'Exit', 'Get Date', 'Remind Me']
             }
         ];
         this.contacts = [];
@@ -24,6 +24,9 @@ module.exports = class MenuController {
                     this.exit();
                 case "Get Date":
                     this.getDate();
+                    break;
+                case "Remind Me":
+                    this.remindMe();
                     break;
                 default:
                     console.log("Invalid Input");
@@ -56,6 +59,13 @@ module.exports = class MenuController {
 
     getContactCount() {
         return this.contacts.length;
+    }
+
+    remindMe() {
+        var quote = "Learning is a life-long pursuit";
+        console.log(quote);
+        return quote;
+
     }
 
     exit() {
