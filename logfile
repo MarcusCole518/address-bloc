@@ -1,0 +1,15 @@
+2018-12-18 16:38:04.809 MST [7844] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-12-18 16:38:04.809 MST [7844] LOG:  listening on IPv6 address "::1", port 5432
+2018-12-18 16:38:04.809 MST [7844] FATAL:  lock file "/tmp/.s.PGSQL.5432.lock" already exists
+2018-12-18 16:38:04.809 MST [7844] HINT:  Is another postmaster (PID 7383) using socket file "/tmp/.s.PGSQL.5432"?
+2018-12-18 16:38:04.809 MST [7844] LOG:  database system is shut down
+2018-12-18 16:40:02.112 MST [7867] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-12-18 16:40:02.132 MST [7867] LOG:  listening on IPv6 address "::1", port 5432
+2018-12-18 16:40:02.132 MST [7867] FATAL:  lock file "/tmp/.s.PGSQL.5432.lock" already exists
+2018-12-18 16:40:02.132 MST [7867] HINT:  Is another postmaster (PID 7383) using socket file "/tmp/.s.PGSQL.5432"?
+2018-12-18 16:40:02.133 MST [7867] LOG:  database system is shut down
+2018-12-18 17:06:31.904 MST [19819] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-12-18 17:06:31.948 MST [19819] LOG:  listening on IPv6 address "::1", port 5432
+2018-12-18 17:06:31.949 MST [19819] FATAL:  lock file "/tmp/.s.PGSQL.5432.lock" already exists
+2018-12-18 17:06:31.949 MST [19819] HINT:  Is another postmaster (PID 7383) using socket file "/tmp/.s.PGSQL.5432"?
+2018-12-18 17:06:31.949 MST [19819] LOG:  database system is shut down
